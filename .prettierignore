@@ -1,0 +1,10 @@
+*.md
+*.mdown
+*.mdx
+.next
+package.json
+package-lock.json
+tailwind.config.js
+web/*
+src/js/static/*
+**/node_modules/**/*
