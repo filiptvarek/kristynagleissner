@@ -5,41 +5,37 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				serif: ['CMU', ...defaultTheme.fontFamily.serif],
-				sans: ['Oswald', ...defaultTheme.fontFamily.sans],
+				serif: ['PlayfairDisplay', ...defaultTheme.fontFamily.serif],
+				sans: ['Dosis', ...defaultTheme.fontFamily.sans],
+				handwritten: ['DancingScript', ...defaultTheme.fontFamily.sans],
 			},
 			spacing: {
 				'300': '300px',
 				'200': '200px',
 			},
+			backgroundPosition: {
+			   'left-10': 'center left -10rem',
+			  },
 			colors: {
-				'mineshaft': {
-					DEFAULT: '#333333',
-					'50': '#D4D4D4',
-					'100': '#C2C2C2',
-					'200': '#9E9E9E',
-					'300': '#7A7A7A',
-					'400': '#575757',
-					'500': '#333333',
-					'600': '#262626',
-					'700': '#1A1A1A',
-					'800': '#0D0D0D',
-					'900': '#000000'
-				  },
-				'copper': {
-					DEFAULT: '#AC7A31',
-					'50': '#EDDABF',
-					'100': '#E8D0AD',
-					'200': '#DDBB89',
-					'300': '#D3A766',
-					'400': '#C99242',
-					'500': '#AC7A31',
-					'600': '#906629',
-					'700': '#745321',
-					'800': '#593F19',
-					'900': '#3D2B11'
+				'tangerine': {
+					DEFAULT: '#FF9A66',
+					'50': '#FFF5F0',
+					'100': '#FFEBE0',
+					'200': '#FFD7C2',
+					'300': '#FFC2A3',
+					'400': '#FFAE85',
+					'500': '#FF9A66',
+					'600': '#FF8647',
+					'700': '#FF7229',
+					'800': '#FF5D0A',
+					'900': '#EB5000'
 				  },
 			  },
+			backgroundImage: theme => ({
+			'header-pattern': "url('/images/header_pattern.png')",
+			'menu-pattern': "url('/images/menu.png')",
+			})
+
 		},
 	},
 	variants: {

@@ -14,7 +14,7 @@ export const Nav = () => {
 		);
 	}
 	return (
-		<nav className="flex justify-center w-full items-center">
+		<nav className="relative flex flex-col items-center justify-center w-full">
 			<NavListDesktop navData={navData} />
 		</nav>
 	);

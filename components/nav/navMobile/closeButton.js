@@ -1,4 +1,4 @@
-import Close from '../../icons/Close.svg';
+import Close from '/icons/Close.svg';
 
 export const CloseButton = ({ onClick }) => {
 	return (
