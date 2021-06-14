@@ -4,9 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: data/nav.json
-  label: Nav
+- type: directory
+  path: data/forestry/navigation
+  label: Navigation
+  create: documents
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
