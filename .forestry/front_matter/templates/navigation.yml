@@ -22,3 +22,5 @@ fields:
     min: 
     max: 
     step: 
+pages:
+- data/forestry/navigation/domu.md
