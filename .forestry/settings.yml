@@ -9,6 +9,8 @@ sections:
   label: Navigation
   create: documents
   match: "**/*"
+  templates:
+  - navigation
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
